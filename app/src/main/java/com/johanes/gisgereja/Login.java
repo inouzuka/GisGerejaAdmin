@@ -60,7 +60,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         initListeners();
         initObjects();
     }
-    // ini test ke git
+    // ini test lagi sepertinya lho ya
     private void initViews() {
 
         constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
