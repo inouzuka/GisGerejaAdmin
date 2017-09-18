@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b200f9</color>
+    <color name="colorPrimaryDark">#7a309f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sweetPotato">#a312c7</color>
+    <color name="colorText">#FFFFFF</color>
+
+    <color name="Color_1">#ff4444</color>
+    <color name="Color_2">#c5e26d</color>
+    <color name="Color_3">#b368d9</color>
+    <color name="Color_4">#03a1d7</color>
+    <color name="Color_5">#079dd0</color>
+    <color name="Color_6">#0099cc</color>
+    <color name="Color_7">#ffd060</color>
+</resources>

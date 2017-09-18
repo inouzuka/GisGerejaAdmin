@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name_admin">ADMIN</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_2">Confirm Password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="button_login">LOGIN</string>
+    <string name="vcs_now">V.1.0</string>
+    <!--  -->
+    <string name="tv_menu_input">INPUT DATA GEREJA</string>
+    <string name="tv_NamaGereja">Nama Gereja</string>
+    <string name="tv_AlamatGereja">Alamat Gereja</string>
+    <string name="tv_DeskripsiGereja">Deskripsi</string>
+    <string name="hint_namaGereja">Nama Gereja</string>
+    <string name="hint_alamatGereja">Alamat Gereja</string>
+    <string name="hint_deskripsiGereja">Deskripsi Gereja</string>
+    <string name="tv_list_gereja">Daftar Gereja</string>
+
+    <string name="btn_edit">Edit</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_hapus">Hapus</string>
+
+    <string name="tv_register_user">Add User</string>
+    <string name="button_add_user">Tambah User</string>
+    <string name="button_add_data">Tambah Data Gereja</string>
+
+    <string name="tv_add_data">Tambah Data</string>
+    <string name="tv_lihat_peta">Gereja Terdekat</string>
+    <string name="tv_dftr_gereja">List Gereja</string>
+    <string name="tv_info_dev">Pengembang</string>
+    <string name="tv_keluar_app">Keluar</string>
+
+    <string name="button_update_data">Update Data Gereja</string>
+    <string name="button_edit_data">Edit Data Gereja</string>
+    <string name="tv_nama">Nama User</string>
+    <string name="tv_uploadGambar">Pilih Gambar</string>
+    <string name="btn_back_to_login">Kembali ke Login</string>
+
+    <string name="text_accounts">Menu Utama</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="add_message">Sukses tambah data</string>
+
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Info Lokasi Gereja</string>
+    <string name="aplikasi_desc">Aplikasi ini merupakan aplikasi bantu untuk Masyarakat dengan location based service dalam mencari gereja - gereja di wilayah kota Semarang</string>
+    <string name="stekom">STEKOM</string>
+    <string name="gis_gereja_semarang">GIS GEREJA SEMARANG</string>
+    <string name="johanes_adrian">Johanes Adrian</string>
+    <string name="sistem_komputer">Sistem Komputer</string>
+    <string name="ver_1_0">Ver. 1.0</string>
+
+    <string name="error_user_access">You do not have permission to access file location</string>
+    <string name="longi">Longitude</string>
+    <string name="lati">Latitude</string>
+    <string name="title_activity_maps">Maps</string>
+
+</resources>

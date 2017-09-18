@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:background="@drawable/images"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="150sp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_title"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_hello"
+            android:visibility="invisible" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:text="@string/text_accounts"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorText"
+        tools:context="com.johanes.gisgereja.Login">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300sp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_marginTop="35dp"
+                android:id="@+id/btn_Info"
+                android:layout_below="@+id/btn_InputData"
+                android:layout_alignStart="@+id/btn_InputData"
+                tools:ignore="ContentDescription"
+                android:background="@drawable/ic_info_outline_black_48dp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:paddingBottom="12sp"
+                android:backgroundTint="@color/colorPrimary"
+                tools:targetApi="lollipop" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="100sp"
+                android:id="@+id/btn_InputData"
+                android:contentDescription=""
+                tools:ignore="ContentDescription"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/ic_event_note_black_48dp"
+                android:layout_height="100sp"
+                android:layout_marginTop="11dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="@color/colorPrimary"
+                tools:targetApi="lollipop" />
+
+            <android.support.v7.widget.AppCompatButton
+                app:srcCompat="@drawable/bc3"
+                android:id="@+id/btn_ListG"
+                tools:ignore="ContentDescription"
+                android:background="@drawable/church"
+                android:layout_width="80sp"
+                android:layout_alignBaseline="@+id/btn_Maps"
+                android:layout_alignBottom="@+id/btn_Maps"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp"
+                android:layout_height="80sp"
+                android:backgroundTint="@color/colorPrimary"
+                tools:targetApi="lollipop" />
+
+            <android.support.v7.widget.AppCompatButton
+                app:srcCompat="@drawable/bc1"
+                android:id="@+id/btn_Maps"
+                tools:ignore="ContentDescription"
+                android:background="@drawable/google_maps"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_alignBaseline="@+id/btn_InputData"
+                android:layout_alignBottom="@+id/btn_InputData"
+                android:layout_alignStart="@+id/btn_Exit"
+                android:backgroundTint="@color/colorPrimary"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:text="@string/tv_dftr_gereja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/btn_Maps"
+                android:layout_alignStart="@+id/btn_ListG"
+                android:layout_alignEnd="@+id/btn_ListG" />
+
+            <TextView
+                android:text="@string/tv_add_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/btn_InputData"
+                android:layout_alignStart="@+id/btn_InputData"
+                android:layout_alignEnd="@+id/btn_InputData" />
+
+            <TextView
+                android:text="@string/tv_lihat_peta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/btn_Maps"
+                android:layout_alignStart="@+id/btn_Maps" />
+
+            <TextView
+                android:text="@string/tv_info_dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/btn_Info"
+                android:layout_alignStart="@+id/btn_Info" />
+
+            <TextView
+                android:text="@string/tv_keluar_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/btn_Info"
+                android:layout_centerHorizontal="true" />
+
+            <android.support.v7.widget.AppCompatButton
+                app:srcCompat="@drawable/exit"
+                android:id="@+id/btn_Exit"
+                tools:ignore="ContentDescription"
+                android:background="@drawable/ic_exit_to_app_black_48dp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_above="@+id/textView14"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/colorPrimary"
+                tools:targetApi="lollipop" />
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.johanes.gisgereja">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bc3"
+        android:label="@string/app_name_admin"
+        android:roundIcon="@drawable/bc3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name_admin"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu.MainMenu" />
+        <!--<activity android:name="Login" />-->
+        <activity android:name=".menu.Register" />
+        <activity android:name=".menu.Info" />
+        <activity android:name=".menu.ListGereja" />
+        <activity android:name=".menu.InputGereja" />
+        <activity android:name=".menu.DetailGereja" />
+        <!--<activity android:name=".menu.Maps" />-->
+        <activity android:name=".menu.MapsActivity" />
+
+
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCHYZZRQ-AlL_M7sJ6b3pudgr-01erpnK0"/>
+    </application>
+
+</manifest>
